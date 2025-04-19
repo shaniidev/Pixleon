@@ -1,0 +1,19 @@
+# Ignore Python cache and virtual environment files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories commonly used
+venv/
+.venv/
+env/
+.env/
+*/venv/
+*/.venv/
+*/env/
+*/.env/
+
+# Ignore distribution/build directories
+dist/
+build/
+*.egg-info/ 
